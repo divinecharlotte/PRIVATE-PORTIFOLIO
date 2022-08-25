@@ -3,11 +3,8 @@ import './portfolio.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import eme from '../../assets/images/EmeOlympiad.png';
-import rut from '../../assets/images/RentUrTech.png';
 import ram from '../../assets/images/RentAMovie.png';
 import st from '../../assets/images/SpaceTravellers.png';
-import ba from '../../assets/images/BudTab.png';
-import tz from '../../assets/images/TwoZero.png';
 import Modal from '../modal/Modal';
 
 const Portfolio = ({ menu }) => {
@@ -17,15 +14,7 @@ const Portfolio = ({ menu }) => {
   Aos.init({ duration: 1000 });
 
   const projects = useRef([
-    {
-      name: 'Rent Ur Tech',
-      description:
-        "'RentUrTech' is a Full Stack App for a rental service that allows a user to reserve a specific product for a set amount of time. Users can create an account, get an authentication token (JWT), and then retrieve data from our API. Additionally, super users can add and delete technologies from the API.",
-      techs: ['React & Redux', 'SCSS', 'Ruby on Rails'],
-      image: rut,
-      linkToLiveVersion: 'https://renturtech.netlify.app/',
-      linkToSource: 'https://github.com/zhadier/RentUrTechFrontend',
-    },
+
     {
       name: 'Space Travellers',
       description:
@@ -34,15 +23,6 @@ const Portfolio = ({ menu }) => {
       image: st,
       linkToLiveVersion: 'https://space-travelers-az.netlify.app',
       linkToSource: 'https://github.com/zhadier/space-travelers',
-    },
-    {
-      name: 'Bud-Tab',
-      description:
-        'Bud-Tab is a mobile web application where users can manage their expenses: A list of transactions associated with a category can be created, so users can see how much money they spend and on what. The users are authenticated using Devise',
-      techs: ['Ruby on Rails', 'Postgres', 'Tailwind'],
-      image: ba,
-      linkToLiveVersion: 'https://budget-app-zhadier.herokuapp.com/',
-      linkToSource: 'https://github.com/zhadier/budget-app',
     },
     {
       name: 'Rent A Movie',
@@ -61,15 +41,6 @@ const Portfolio = ({ menu }) => {
       image: eme,
       linkToLiveVersion: 'https://zhadier.github.io/Eme-Olympiad/',
       linkToSource: 'https://github.com/zhadier/Eme-Olympiad',
-    },
-    {
-      name: 'Two Zero Four Eight',
-      description:
-        "I was really bored during my mid-summer vacations so I thought why don't we play a game, or even better ~ Make one. One of the most logic extensive JavaScript projects I had the pleasure of remaking",
-      techs: ['HTML', 'CSS', 'JavaScript'],
-      image: tz,
-      linkToLiveVersion: 'https://zhadier.github.io/two-zero-four-eight',
-      linkToSource: 'https://github.com/zhadier/two-zero-four-eight',
     },
   ]);
 
@@ -118,17 +89,6 @@ const Portfolio = ({ menu }) => {
               <button
                 type="button"
                 className={`${
-                  currentFilter === 'Ruby on Rails'
-                    ? 'filter-active'
-                    : 'list-item'
-                }`}
-                onClick={setFilter}
-              >
-                Ruby on Rails
-              </button>
-              <button
-                type="button"
-                className={`${
                   currentFilter === 'React & Redux'
                     ? 'filter-active'
                     : 'list-item'
@@ -145,15 +105,6 @@ const Portfolio = ({ menu }) => {
                 onClick={setFilter}
               >
                 JavaScript
-              </button>
-              <button
-                type="button"
-                className={`${
-                  currentFilter === 'Tailwind' ? 'filter-active' : 'list-item'
-                }`}
-                onClick={setFilter}
-              >
-                Tailwind
               </button>
             </div>
             <div className="projects-row">

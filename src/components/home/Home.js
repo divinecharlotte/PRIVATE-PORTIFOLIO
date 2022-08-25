@@ -51,7 +51,7 @@ const Home = ({ menu }) => {
           </li>
 
           <li>
-            <a target="_blank" href="#" rel="noreferrer">
+            <a target="_blank" href="https://angel.co/u/charlotte-divine-dusenge" rel="noreferrer">
               <FaAngellist />
             </a>
           </li>

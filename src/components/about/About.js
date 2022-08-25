@@ -31,9 +31,7 @@ const About = ({ menu }) => {
                   I'm currently enrolled in a remote web development school
                   called "Microverse" where I code with a diverse group of
                   developers from all over the world, usually via pair
-                  programming. I love spending my time doing code reviews,
-                  testing, or sometimes just helping my peers out during Scrum
-                  meetings. In my free time, I find joy in listenning to music and love
+                  programming.In my free time, I find joy in listenning to music and love
                   solving problems for fun
                 </p>
               </div>
@@ -124,16 +122,7 @@ const About = ({ menu }) => {
                       <div className="skill-percent">80%</div>
                     </div>
                   </div>
-                  <div className="skill-item" data-aos="fade-in">
-                    <h3>Rails</h3>
-                    <div className="progress">
-                      <div
-                        className="progress-in"
-                        style={{ width: '75%' }}
-                      />
-                      <div className="skill-percent">75%</div>
-                    </div>
-                  </div>
+
                   <div className="skill-item" data-aos="fade-in">
                     <h3>ES6</h3>
                     <div className="progress">
@@ -163,25 +152,7 @@ const About = ({ menu }) => {
                 <div className="row">
                   <div className="timeline-box">
                     <div className="timeline shadow-dark">
-                      <div className="timeline-item">
-                        <div className="circle-dot" />
-                        <h3 className="timeline-date">
-                          <BsCalendar2Date className="fa fa-calendar" />
-                          <i>2017-2021</i>
-                        </h3>
-                        <h4 className="timeline-title">
-                          Bachelors in Electrical Engineering
-                        </h4>
-                        <p className="timeline-text">
-                          - Graduated with Magna Cum Laude grades from NUST, the
-                          number 1 ranked Engineering institute in my Country. -
-                        </p>
-                        <p className="timeline-text">
-                          - Lead the final year group project to get exemplary
-                          grades, creating a twitter social bot detection
-                          software using ML.
-                        </p>
-                      </div>
+
                       <div className="timeline-item">
                         <div className="circle-dot" />
                         <h3 className="timeline-date">
@@ -234,25 +205,7 @@ const About = ({ menu }) => {
                           to multiple junior developers over 1:1 zoom calls.
                         </p>
                       </div>
-                      <div className="timeline-item">
-                        <div className="circle-dot" />
-                        <h3 className="timeline-date">
-                          <BsCalendar2Date className="fa fa-calendar" />
-                          <i>2017</i>
-                        </h3>
-                        <h4 className="timeline-title">P&P Intern at ENGRO</h4>
-                        <p className="timeline-text">
-                          - Produced high-quality documents, spreadsheets, and
-                          presentations for internal and customer-facing needs,
-                          improving customer satisfaction and speeding up
-                          internal processes by a factor of 1.5.
-                        </p>
-                        <p className="timeline-text">
-                          - Performed fault analysis in substation generators
-                          and came up with preventive solutions that reduced
-                          maintenance downtimes by 120%.
-                        </p>
-                      </div>
+
                     </div>
                   </div>
                 </div>
