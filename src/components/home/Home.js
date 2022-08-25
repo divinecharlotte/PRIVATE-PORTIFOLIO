@@ -15,7 +15,6 @@ const Home = ({ menu }) => {
       strings: [
         'React Developer',
         'Rails Developer',
-        'Electrical Engineer',
         'Chess Enthusiast',
       ], // Strings to display
       // Speed settings, try diffrent values untill you get good results
