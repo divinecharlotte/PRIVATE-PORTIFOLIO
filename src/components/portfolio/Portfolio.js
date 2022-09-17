@@ -2,9 +2,9 @@ import React, { useState, useRef } from 'react';
 import './portfolio.scss';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import eme from '../../assets/images/EmeOlympiad.png';
-import ram from '../../assets/images/RentAMovie.png';
-import st from '../../assets/images/SpaceTravellers.png';
+import js from '../../assets/images/jsreal1.png';
+import meals from '../../assets/images/mealswbst.png';
+import space from '../../assets/images/spacetravel.png';
 import Modal from '../modal/Modal';
 
 const Portfolio = ({ menu }) => {
@@ -19,28 +19,28 @@ const Portfolio = ({ menu }) => {
       name: 'Space Travellers',
       description:
         '"Space Travelers" is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
-      techs: ['React & Redux', 'SCSS'],
-      image: st,
-      linkToLiveVersion: 'https://space-travelers-az.netlify.app',
-      linkToSource: 'https://github.com/zhadier/space-travelers',
+      techs: ['React & Redux', 'CSS3'],
+      image: space,
+      linkToLiveVersion: 'https://frolicking-bienenstitch-f9dcce.netlify.app/',
+      linkToSource: 'https://github.com/aliatayee/Space-Travelers-Hub',
     },
     {
-      name: 'Rent A Movie',
+      name: 'Get the best meals',
       description:
-        '`Rent-A Movie` is a simple Vanilla JS website for movie renting where a user can make reservations, add comments & likes or just get details about movies that they like. It was made using the tvMaze API',
-      techs: ['HTML', 'SCSS', 'JavaScript'],
-      image: ram,
-      linkToLiveVersion: 'https://zhadier.github.io/Rent-A-Movie',
-      linkToSource: 'https://github.com/zhadier/Rent-A-Movie',
+        '`Get the best meals` is a simple Vanilla JS website for reserving meals where a user can make reservations, add comments & likes or just get details about meals that they like',
+      techs: ['HTML', 'CSS3', 'JavaScript'],
+      image: meals,
+      linkToLiveVersion: 'https://divinecharlotte.github.io/javascript-capstone/',
+      linkToSource: 'https://github.com/divinecharlotte/javascript-capstone',
     },
     {
-      name: 'EME Olympiad Landing Page',
+      name: 'DCD fashion page',
       description:
-        "`Eme Olympiad` is based on an annual event held in my University. It's an extravaganza of concerts, sport events, arts and other fun activities. Users can use this website to checkout the different events available and get to know the rich history behind Eme Olympiad",
+        "`DCD fashion` is based on an annually worldwide. It's an extravaganza of concerts, arts and other fun fashion related activities. Users can use this website to checkout the different activities available and get to know the rich history behind modeling",
       techs: ['CSS', 'HTML', 'JavaScript'],
-      image: eme,
-      linkToLiveVersion: 'https://zhadier.github.io/Eme-Olympiad/',
-      linkToSource: 'https://github.com/zhadier/Eme-Olympiad',
+      image: js,
+      linkToLiveVersion: 'https://divinecharlotte.github.io/divnecharlotte.github.io/',
+      linkToSource: 'https://github.com/divinecharlotte/PRIVATE-PORTIFOLIO',
     },
   ]);
 
