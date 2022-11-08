@@ -122,6 +122,16 @@ const About = ({ menu }) => {
                       <div className="skill-percent">80%</div>
                     </div>
                   </div>
+                  <div className="skill-item" data-aos="fade-in">
+                    <h3>Rails</h3>
+                    <div className="progress">
+                      <div
+                        className="progress-in"
+                        style={{ width: '75%' }}
+                      />
+                      <div className="skill-percent">75%</div>
+                    </div>
+                  </div>
 
                   <div className="skill-item" data-aos="fade-in">
                     <h3>ES6</h3>
